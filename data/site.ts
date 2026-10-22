@@ -1,5 +1,5 @@
 export const SITE = { name: "Reclosed", url: "https://reclosed.io", title: "Reclosed | Context-Aware AI Lead Reactivation", description: "The world's first context-aware AI lead reactivation platform." };
-export const CAL_URL = "https://cal.com/nathan-chen/walkthrough";
+export const CAL_URL = "https://cal.com/nathanchen/1-1-call-nathan?date=2026-10-23";
 export const CONTACT_EMAIL = "nathan@reclosed.io";
 export const FEATURES = [
   { number: "01", name: "CRM Reactivation", href: "/#platform", audience: "Leads already in your CRM", description: "Restart conversations and turn dormant leads into qualified calls.", outcome: "Dormant lead → booked call", status: null },

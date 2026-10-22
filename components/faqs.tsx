@@ -89,12 +89,9 @@ export function FAQs({ id = "faq", items = FAQS, label = "FAQs", heading = "Freq
       <SubHeading className="px-2">
         {sub}
       </SubHeading>
-      <div className="mt-8 mb-12 flex w-full flex-col justify-center gap-4 px-4 sm:flex-row">
-        <Button href={CAL_URL} external className="w-full sm:w-auto">
+      <div className="mt-8 mb-12 flex w-full justify-center px-4">
+        <Button href={CAL_URL} external>
           Book a call
-        </Button>
-        <Button variant="secondary" href="/contact" className="w-full sm:w-auto">
-          Contact us
         </Button>
       </div>
       <DivideX />
