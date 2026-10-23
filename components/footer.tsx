@@ -46,7 +46,7 @@ export function Footer() {
               Your next booked call is already in your CRM. Let&apos;s find it.
             </p>
             <div className="mt-7">
-              <Button href={CAL_URL} external className="inline-flex min-h-11 items-center gap-3">Book a call <span aria-hidden="true">↗</span></Button>
+              <Button href={CAL_URL} external className="inline-flex min-h-11 items-center gap-3">Book a call</Button>
               <p className="mt-4 max-w-80 text-sm leading-6 text-neutral-500 dark:text-neutral-400">We&apos;ll walk through your goals, the workflow, and how Reclosed fits your business.</p>
             </div>
             {SOCIALS.some(({ href }) => href) && (

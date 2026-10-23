@@ -23,7 +23,7 @@ export function Compliance() {
             Your leads, conversations, and pipeline notes are handled with the same care as your own systems. Here is exactly what happens to your data.
           </p>
           <Button href={CAL_URL} external className="mt-6 inline-flex min-h-11 items-center gap-3">
-            Book a call <span aria-hidden="true">↗</span>
+            Book a call
           </Button>
         </div>
         <ul className="divide-y divide-divide">

@@ -67,7 +67,7 @@ const features = [
 function WalkthroughLink() {
   return (
     <Button href={CAL_URL} external className="platform-cta inline-flex min-h-11 items-center gap-3">
-      Book a call <span aria-hidden="true">↗</span>
+      Book a call
     </Button>
   );
 }

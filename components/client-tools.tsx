@@ -20,7 +20,7 @@ export function ClientTools() {
             <span className="inline-flex items-center gap-2"><SparklesIcon className="size-4 text-brand" aria-hidden="true" />Your AI assistant</span>
             <span className="inline-flex items-center gap-2"><TerminalIcon className="size-4 text-brand" aria-hidden="true" />Your terminal</span>
           </div>
-          <Button href={CAL_URL} external className="mt-6 inline-flex min-h-11 items-center gap-3">Book a call <span aria-hidden="true">↗</span></Button>
+          <Button href={CAL_URL} external className="mt-6 inline-flex min-h-11 items-center gap-3">Book a call</Button>
         </div>
         <div role="group" aria-label="Illustrative AI assistant conversation about a lead" className="min-w-0 overflow-hidden rounded-2xl border border-divide bg-gray-100 dark:bg-neutral-900">
           <div className="flex items-center justify-between gap-4 border-b border-divide px-5 py-4">

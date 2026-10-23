@@ -34,7 +34,7 @@ export function ProblemExplorer() {
             <h3 id={`problem-title-${problem.id}`}>{problem.title}</h3>
             <p className="problem-story-body">{problem.body}</p>
             <p className="problem-story-takeaway">{problem.takeaway}</p>
-            <Button href={CAL_URL} external className="mt-6 inline-flex min-h-11 items-center gap-3">Book a call <span aria-hidden="true">↗</span></Button>
+            <Button href={CAL_URL} external className="mt-6 inline-flex min-h-11 items-center gap-3">Book a call</Button>
           </div>
           <ProblemDiagram scenario={problem.id} />
         </article>

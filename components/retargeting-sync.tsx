@@ -58,7 +58,7 @@ export function RetargetingSync() {
         <div><span className="feature-section-label">Reclosed handles</span><h3>The audience data.</h3><p>Connect your Meta account, map lead statuses to audience rules, and sync additions and removals as those statuses change.</p></div>
         <div><span className="feature-section-label">Your ad team handles</span><h3>The campaigns.</h3><p>Your media buyer controls the creative, campaigns, budgets, and bidding in your own ad account.</p></div>
       </div>
-      <div className="retargeting-cta"><p>See how audience sync could fit your reactivation workflow.</p><Button href={CAL_URL} external>Book a call <span aria-hidden="true">↗</span></Button></div>
+      <div className="retargeting-cta"><p>See how audience sync could fit your reactivation workflow.</p><Button href={CAL_URL} external>Book a call</Button></div>
     </section>
   </Container>;
 }
