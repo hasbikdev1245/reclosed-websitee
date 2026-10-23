@@ -245,6 +245,41 @@
   .footer-link, .footer-audit-submit { transition: none; }
 }
 
+@keyframes logo-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.logo-marquee-viewport {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+}
+
+.logo-marquee {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  animation: logo-marquee 36s linear infinite;
+}
+
+.logo-marquee:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .logo-marquee {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: none;
+  }
+
+  .logo-marquee [data-clone] {
+    display: none;
+  }
+}
+
 /* Keep Task 1 utility coverage buildable before the section components land.
    The reference mask-bg-gradient-to-b class has no CSS rule and is a no-op. */
 @source inline("[--base-color:var(--color-brand)]");
